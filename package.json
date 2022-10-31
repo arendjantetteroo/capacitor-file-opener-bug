@@ -1,0 +1,24 @@
+{
+  "name": "cap-file-opener",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3002",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@capacitor-community/file-opener": "github:capacitor-community/file-opener#bugfix/build-1.0.2-fails-to-install-with-dist",
+    "next": "12.3.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.8",
+    "@types/react": "18.0.24",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "typescript": "4.8.4"
+  }
+}
